@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Menü32 - Startseite</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#"><img src="./img/head-logo_plain.png" alt="Menü32 Logo"><p>Do–Sa 17–20 Uhr</p></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Startseite</a></li>
+                <li><a href="#reservation">Reservierung</a></li>
+                <li><a href="#anfahrt">Anfahrt</a></li>
+                <li><a href="#">Impressum</a></li>
+                <li><a href="#">Datenschutz</a></li>
+            </ul>
+        </div>
+        <div class="corona-warning">
+            <i class="fas fa-exclamation"></i> <p> Aufgrund der aktuellen Coronaschutzverordnung sind wir gezwungen, unsere Öffnungszeiten zu ändern. Wir haben nun Do./Fr./Sa. von 17-20 Uhr geöffnet.</p><a href="#">Bitte beachten Sie zudem die ab dem 01.12.2021 geltenden Preise.</a>
+        </div>
+    </nav>
+
+    <header>
+        <div class="header-container">
+            <div class="header-text">
+                <h1>Das 3 Gänge Menü Erlebis</h1>
+                <p>3 Gänge Überraschungsmenü, wöchentlich neu aus regionalen Zutaten kreiert.<br>Erleben Sie Genuss in der <strong>Nürnberger Straße 32</strong>.</p>
+                <button onClick="document.getElementById('reservation').scrollIntoView();">Jetzt Reservieren</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="review-container">
+        <div class="review-slider">
+            <h2>Und das sagen unsere Gäste</h2>
+            <div class="review">
+                <div class="review-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <div class="review-title-author"><h4>Ausgezeichnet - Sterne verdächtig</h4><p>– Benutzer</p></div>
+                <div class="review-text">"Wunderbares Ambiente mit wirklich leckerem Essen. Rundum begeistert. Wir haben vegetarisch gegessen."</div>
+                <div class="review-link"><a href="#">Hier Alle Rezensionen einsehen</a></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="concept-section">
+        <div class="concept-container">
+            <h2>Unser Konzept</h2>
+            <h3>Speisekarte? Gibt es nicht!</h3>
+            <div class="concept-text-2rows">
+                <div class="concept-text-image-left">
+                    <img src="img/concept_image.webp" alt="Concept">
+                </div>
+                <div class="concept-text-right">
+                    <p style="text-align:justify">
+                        Unser Restaurant bietet mit nur 20 Sitzplätzen eine besonders romantische und ruhige Atmosphäre. Genau richtig um die Woche ausklingen zu lassen oder einen entspannten Abend zu genießen!
+                        <br> <br>
+                        Wir kreieren jede Woche ein 3-Gang-Überraschungsmenü, das vor den Augen aller Gäste in der Showküche vollendet und angerichtet wird. Die genauen Zutaten und Gerichte erfahren Sie erst vor Ort am Abend Ihrer Reservierung. Jedes Menü besteht ausschließlich aus regionalen Zutaten von Bauern und Erzeugern aus Dresden und der unmittelbaren Umgebung.
+                        <br> <br>
+                        Wir interpretieren internationale und deutsche Speisen neu. So finden in einem Gericht viele verschiedene Komponenten ihren Platz - in Kombination ein echtes Geschmackserlebnis.
+                        <br> <br>
+                        Unser Überraschungsmenü eignet sich auch für wählerische und vegetarische Gäste! Geben Sie bei Ihrer Reservierung einfach ihre Ernährungsform und Unverträglichkeiten an.
+                    </p>
+                </div>
+            </div>
+            <div class="pre-text-dishes">
+                <h2>Getränke und Gläser? Bitte beides selbst mitbringen!</h2>
+                <p style="text-align:justify">Bei uns steht das Menü im Mittelpunkt! Ihre eigenen (Wunsch-)Getränke können und sollen Sie sich sogar selbst mitbringen. Falls Sie dies nicht möchten oder vergessen haben, das ist kein Problem. Ein Supermarkt ist nur 50 Meter vom Restaurant entfernt. Aber auch wir halten ein kleines Sortiment an Getränken (Wasser, Limo, Wein) bereit, welches Sie flaschenweise käuflich erwerben können. Da sich die Gläser leider nicht von alleine spülen, berechnen wir eine Glaspauschale von 1,50€ pro Glas, sofern Sie keine eigenen Gläser mitbringen.</p>
+            </div>
+
+            <div class="concept-dishes-cards-container">
+                <div class="dish-card">
+                    <div class="dish-card-img"><img src="./img/entree.webp" alt="Entree Dish"></div>
+                    <div class="dish-card-content">
+                        <h3>1. Gang</h3>
+                        <p>Auf den ersten Bissen verliebt... Eine Gaumenfreude zum Einstimmen & Appetit machen!</p>
+                    </div>
+                </div>
+
+                <div class="dish-card">
+                    <div class="dish-card-img"><img src="./img/main_course.webp" alt="Entree Dish"></div>
+                    <div class="dish-card-content">
+                        <h3>2. Gang</h3>
+                        <p>So viel mehr als nur Sattwerden... Internationale und deutsche Gerichte neu & hinreißend kreiert!</p>
+                    </div>
+                </div>
+
+                <div class="dish-card">
+                    <div class="dish-card-img"><img src="./img/dessert_course.webp" alt="Entree Dish"></div>
+                    <div class="dish-card-content">
+                        <h3>3. Gang</h3>
+                        <p>Ein köstliches Nachspiel für die Hüfte... Liebevoll zubereitet & himmlisch lecker zu genießen!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reservation" id="reservation">
+        <div class="reservation-container">
+            <h2>Reservierung</h2> 
+            <p style="text-align: center; margin-bottom:2rem;">Eine Reservierung im Voraus ist zwingend erforderlich!</p>
+            <iframe title="centralplanner" id="cplan" class="cplan" src="https://centralplanner.net/webform_public/2745-Menue32-Restauration-Dresden"></iframe>
+        </div>
+    </section>
+
+    <section class="location" id=anfahrt>
+        <h2>Anfahrt</h2> 
+        <div class="location-container">
+            <iframe width="800" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Men%C3%BC32%20dresden&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <ul class="footer-links">
+            <a href="#">Impressum</a>
+            <a href="#">Datenschutz</a>
+            <p>© Menü32 2021</p>
+        </ul>
+    </footer>
+</body>
+</html>
